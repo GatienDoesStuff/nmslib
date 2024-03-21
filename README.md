@@ -1,3 +1,6 @@
+# NOTE
+This is a fork of the original upstream nmslib project. At the time of writing, nmslib doesn't compile, due to a dependency on an older version of `pybind11`, as well as a missing #include. This repo just bumps the required version of pybind to something that mostly works.
+
 [![Pypi version](https://img.shields.io/pypi/v/nmslib.svg)](http://pypi.python.org/pypi/nmslib)
 [![Downloads](https://pepy.tech/badge/nmslib)](https://pepy.tech/project/nmslib)
 [![Downloads](https://pepy.tech/badge/nmslib/month)](https://pepy.tech/project/nmslib)
